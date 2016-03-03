@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="WhatTimeISIt" uploadOnCheckin="80fa64f0-e914-46d8-ade5-be9fa12c10d5">
+    <serverData>
+      <paths name="WhatTimeISIt">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="WhatTimeISIt" />
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
