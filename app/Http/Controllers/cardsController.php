@@ -12,11 +12,11 @@ use Form;
 
 use App\Http\Controllers\Controller;
 
-class pagesController extends Controller
+class cardsController extends Controller
 {
-	public function home (){
-		$people = ['p1one', 'p2','p3'];
-		return view('pages.displayStudent')->with('people', $people);
+	public function index (){
+
+return view('cards.index');
 	}
 
 }

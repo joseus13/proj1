@@ -17,11 +17,14 @@ Route::get('/', 'pagesController@home');
     //return view('pages.students.displayStudent')->with('people', $people);
 //});
 
-Route::get('/upload', function() {
-  return View::make('pages.upload');
-});
-Route::post('apply/upload', 'applyController@upload');
+Route::get('/upload', 'uploadController@upload');
+//{
+//  return View::make('pages.upload');
+//});
 
+Route::post('apply/upload', 'uploadController@upload');
+
+route::get('/cards', 'cardsController@index');
 /*
 |--------------------------------------------------------------------------
 | Application Routes

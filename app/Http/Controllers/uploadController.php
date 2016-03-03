@@ -5,7 +5,7 @@ use Redirect;
 use Request;
 use Session;
 
-class ApplyController extends Controller {
+class uploadController extends Controller {
 public function upload() {
   // getting all of the post data
   $file = array('image' => Input::file('image'));
